@@ -68,15 +68,15 @@
           $color-yellow-light,
           $color-yellow-dark
         ),
-        url("../../img/nat-5.jpg");
+        url("../img/nat-5.jpg");
     }
     &--2 {
       background-image: linear-gradient(to bottom right,$color-primary-light,$color-primary-dark),
-      url("../../img/nat-6.jpg");
+      url("../img/nat-6.jpg");
     }
     &--3 {
       background-image: linear-gradient(to bottom right,$color-blue-light,$color-blue-dark),
-      url("../../img/nat-7.jpg");
+      url("../img/nat-7.jpg");
     }
   }
   &__heading {
