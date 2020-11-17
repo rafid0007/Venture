@@ -2,4 +2,4 @@
 
 ## Made With:
   * Html
-  *Css (Scss)
+  * Css (Scss)
