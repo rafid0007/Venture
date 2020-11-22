@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/icon-fonts.css" />
+    <!-- <link rel="stylesheet" href="css/icon-fonts.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
@@ -334,7 +334,10 @@
         <!--  FOOTER SECTION  -->
     <footer class="footer">
       <div class="footer__logo-box">
-        <img class="footer__logo" src="img/logo-green-2x.png" alt="Logo">
+        <picture class="footer__logo">
+          <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" alt="Logo" media="(max-width: 37.5em)">
+          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Logo">
+        </picture>
       </div>
       <div class="row">
         <div class="col-1-of-2">
