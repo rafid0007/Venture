@@ -4,4 +4,4 @@
 
 ### Made With:
   * Html
-  * Css (Scss)
+  * CSS (SCSS)
